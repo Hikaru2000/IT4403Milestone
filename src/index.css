@@ -1,0 +1,31 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    overflow: auto;
+    background-color: #000000;
+    color: white;
+}
+
+.navbar a {
+     display: block;
+     color: #000;
+     padding: 8px 16 px;
+     text-decoration: none;
+}
+
+/* Link color on hover */
+.navbar a:hover {
+     background-color: #ffc629;
+     color: black;
+}
+
+/* Link color while active */
+.active {
+     background-color: #ffc629;
+     color: black;
+}
+
