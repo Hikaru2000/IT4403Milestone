@@ -7,14 +7,14 @@
     position: fixed;
     overflow: auto;
     background-color: #000000;
-    color: white;
+
 }
 
 .navbar a {
      display: block;
-     color: #000;
      padding: 8px 16 px;
      text-decoration: none;
+     color: white;
 }
 
 /* Link color on hover */
