@@ -12,26 +12,34 @@
   <body>
 
     <!-- Navigation Bar -->
-    <div class = "navbar"> 
-      <ul>
-        <li><a href="index.html"> Home </a></li>
-        <li class="dropdown">
-          <a href="javascript:void(0)" class="dropbtn">Milestone 1</a>
-          <div class="dropdown-content">
-            <a href="Single_Book.html">Single Book</a>
-            <a href="Search_Page.html">Search Page</a>
-          </div>
-        </li>
-        <li><a href="Milestone2.html">Milestone 2</a></li>
-        <li><a href="Milestone3.html">Milestone 3</a></li>
-        <li><a href="Milestone4.html">Milestone 4</a></li>
-        <li><a href="Testing-Page.html">Testing Page</a></li>
+    <div class = "sidnav"> 
+        <a href="index.html"> Home </a></li>
+        <!-- Milestone 1 Dropdown Button -->
+        <button class="dropdown-btn">
+          Milestone 1 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <!-- Dropdown Container -->
+        <div class = "dropdown-container">
+          <a href="Single_Book.html">Single Book</a>
+          <a href="Search_Page.html">Search Page</a>
+        </div>
+        <!-- Unfinished Pages -->
+        <a href="Milestone2.html">Milestone 2</a>
+        <a href="Milestone3.html">Milestone 3</a>
+        <a href="Milestone4.html">Milestone 4</a>
+        <a href="Testing-Page.html">Testing Page</a>
       </ul>
     </div>
+    <!-- End Navigation Bar -->
 
-    <div class="content"> 
+    <!-- Page Content -->
+    <div class="content">
+
+      <!--Website Header-->
       <h1 style="text-align:center;"> IT 4403 Individual Project </h1>
 
+      <!--Course Information-->
       <h2>Course Information</h2>
       <p>Name: Gabrielle Hooper</p>
       <p>Course: IT 4403 - Advanced Web and Mobile Application</p>
@@ -39,11 +47,18 @@
       <p>Course Instructor: Dr. Zhigang Li</p>
       <p>Department of Information Technology Link: <a href=""> Department of Information Technology</a></p>
 
+      <!--Table of Contents - Showing other Milestone Pages-->
       <h2> Table of Contents </h2>
       <p><a href="%PUBLIC_URL%/Milestone1.html">Milestone 1</a></p>
       <p><a href="%PUBLIC_URL%/Milestone2.html">Milestone 2</a></p>
       <p><a href="%PUBLIC_URL%/Milestone3.html">Milestone 3</a></p>
       <p><a href="%PUBLIC_URL%/Milestone4.html">Milestone 4</a></p>
     </div>
+
+    <!--Footer-->
+    <footer>
+      <p>This is a project for IT 4403 by Gabrielle Hooper</p>
+    </footer>
+
   </body>
 </html>
