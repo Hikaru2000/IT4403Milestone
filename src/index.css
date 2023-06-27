@@ -29,3 +29,11 @@
      color: black;
 }
 
+.content {
+     margin-left: 20%;
+     padding-left: 20px;
+}
+
+body {
+     font-family:Georgia, 'Times New Roman', Times, serif;
+}
