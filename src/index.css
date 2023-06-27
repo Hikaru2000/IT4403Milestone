@@ -68,3 +68,21 @@
 body {
      font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+/* Add style to the footer*/
+.footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;
+}
+        
+footer {
+     background-color: black;
+     color: white;
+     padding: 10px;
+     text-align: center;
+}
