@@ -9,6 +9,41 @@
       <link rel="stylesheet" type="text/css" href="/src/index.css"/>
   
       <title>IT 4403 Individual Project</title>
+
+      <style>
+        .navbar {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            width: 200px;
+            height: 100%;
+            z-index: 1;
+            position: fixed;
+            overflow: auto;
+            background-color: #000000;
+
+        }
+
+        .navbar a {
+            display: block;
+            padding: 8px 16px;
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Link color on hover */
+        .navbar a:hover {
+            background-color: #ffc629;
+            color: black;
+        }
+
+        /* Link color while active */
+        .navbar .active {
+            background-color: #ffc629;
+            color: black;
+        }
+
+      </style>
     </head>
     <body>
         <!-- Navigation Bar -->
