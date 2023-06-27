@@ -11,34 +11,16 @@
   </head>
   <body>
 
-    <!-- Dropdown Script -->
-    <script>    
-      var dropdown = document.getElementsByClassName("dropdown-btn");
-      var i;
-      
-      for (i = 0; i < dropdown.length; i++) {
-        dropdown[i].addEventListener("click", function() {
-          this.classList.toggle("active");
-          var dropdownContent = this.nextElementSibling;
-          if (dropdownContent.style.display === "block") {
-            dropdownContent.style.display = "none";
-          } else {
-            dropdownContent.style.display = "block";
-          }
-        });
-      }
-      </script>
-
     <!-- Navigation Bar -->
     <div class = "sidenav"> 
-        <a href="index.html"> Home </a></li>
+        <a href="index.html"> Home </a>
         <!-- Milestone 1 Dropdown Button -->
         <button class="dropdown-btn">
           Milestone 1 
           <i class="fa fa-caret-down"></i>
         </button>
         <!-- Dropdown Container -->
-        <div class = "dropdown-container">
+        <div class="dropdown-container">
           <a href="Single_Book.html">Single Book</a>
           <a href="Search_Page.html">Search Page</a>
         </div>
@@ -47,7 +29,6 @@
         <a href="Milestone3.html">Milestone 3</a>
         <a href="Milestone4.html">Milestone 4</a>
         <a href="Testing-Page.html">Testing Page</a>
-      </ul>
     </div>
     <!-- End Navigation Bar -->
 
@@ -79,6 +60,24 @@
 
     </div>
     <!-- End of Content -->
+
+    <!-- Dropdown Script -->
+      <script>    
+        var dropdown = document.getElementsByClassName("dropdown-btn");
+        var i;
+            
+        for (i = 0; i < dropdown.length; i++) {
+          dropdown[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var dropdownContent = this.nextElementSibling;
+            if (dropdownContent.style.display === "block") {
+                dropdownContent.style.display = "none";
+            } else {
+              dropdownContent.style.display = "block";
+            }
+              });
+          }
+      </script>
 
 
   </body>

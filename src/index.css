@@ -18,7 +18,7 @@
      display: block;
      padding: 6px 8px 6px 16px;
      text-decoration: none;
-     background-color:#000000;
+     background: none;
      color: white;
      font-size: 20px;
      display: block;
@@ -36,7 +36,7 @@
 }
 
 /* Button color while active */
-.sidenav .active {
+.active {
      background-color: #ffc629;
      color: black;
 }
