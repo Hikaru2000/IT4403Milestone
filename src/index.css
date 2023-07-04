@@ -11,8 +11,6 @@
      position: fixed; /* Bar does not move with page */
      overflow: auto;
      background-color: #000000;
-
-
 }
 
 .sidenav a, .dropdown-btn {
